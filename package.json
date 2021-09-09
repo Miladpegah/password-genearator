@@ -1,0 +1,25 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "description": "password-generator as JS array",
+  "main": "index.js",
+  "scripts": {
+    "test": "generatePassword(num);"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miladpegah/password-genearator.git"
+  },
+  "keywords": [
+    "password-generator"
+  ],
+  "author": "Miladpegah/password-generator",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miladpegah/password-genearator/issues"
+  },
+  "homepage": "https://github.com/Miladpegah/password-genearator#readme",
+  "dependencies": {
+    "password-generator": "^2.3.2"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "password-generator",
+  "name": "@miladpegah/password-generator",
   "version": "1.0.1",
   "description": "password-generator as JS array",
   "main": "index.js",

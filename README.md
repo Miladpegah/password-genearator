@@ -5,7 +5,12 @@
 
 ## Installation
 
+### Fast installation
 **Add index.js to your project and run `generatePassword()`**
+
+### Package installaion
+
+**npm install @miladpegah/password-generator**
 
 ## Usage
 

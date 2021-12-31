@@ -89,7 +89,8 @@ let caracters = [
 	'{'
 ];
 let password = '';
-let generatePassword = (len) => {
+const target = document.querySelector('#password-generator');
+const generatePassword = (len) => {
 	while(password.length < len){
 		let i = Math.floor(Math.random() * caracters.length);
 		password += caracters[i];
@@ -97,7 +98,11 @@ let generatePassword = (len) => {
 	if (password.length == len) {
 		document.getElementById('passwordshow').innerHTML = password;
 	}else{
+		password = '';
 		generatePassword(len);
 	}
 	password = '';
 }
+target.addEventListener('click', event => {
+	//call the generator and give that the element data-lenght
+});

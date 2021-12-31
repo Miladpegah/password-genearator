@@ -90,6 +90,7 @@ let caracters = [
 ];
 let password = '';
 let generatePassword = (len) => {
+	console.log('SDFSD');
 	while(password.length < len){
 		let i = Math.floor(Math.random() * caracters.length);
 		password += caracters[i];
@@ -97,4 +98,5 @@ let generatePassword = (len) => {
 	if (password.length == len) {
 		document.getElementById('passwordshow').innerHTML = password;
 	}
+	password = '';
 }

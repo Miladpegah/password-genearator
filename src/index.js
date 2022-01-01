@@ -104,5 +104,6 @@ const generatePassword = (len) => {
 	password = '';
 }
 target.addEventListener('click', event => {
-	//call the generator and give that the element data-lenght
+	let length = target.getAttribute('data-passwordLength');
+	generatePassword(length);
 });

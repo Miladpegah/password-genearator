@@ -12,12 +12,25 @@
 
 **npm install @miladpegah/password-generator**
 
-## Usage
+## HTML Usage
 
-**Extract the desired color section from the library and use it in your project**
+#### Add the button `id` and add the password length in `data-passwordLength`.
+#### Show generated password in element with **id=passwordshow**
 
-- EXAMPLE
+- Example
+
+```html
+	<button id="password-generator" data-passwordLength="10">generate password</button>
+	<p id="passwordshow"></p>
+```
+
+
+## Js Usage
+
+**Add library to your project and use the methods**
+
 
 ```js
-generatePassword ();
+	let len  = 10 // password length
+	generatePassword(len);
 ```
